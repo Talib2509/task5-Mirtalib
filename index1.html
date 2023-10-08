@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.nav{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(4, 7, 40);
+    color: white;
+    align-items: center;
+}
+.nav h1{
+    font-size: 30px;
+    font-weight: bold;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+
+}
+li a{
+    margin-right: 40px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.426);
+    font-size: 20px;
+}
+li a:hover{
+    color: aliceblue;
+    transition: 0.5s;
+}
+.bir{
+margin: 60px 150px;}
+  .iki{
+    display: flex;
+}
+.iki1{
+    width: 900px;
+    height: 400px;
+    margin-right: 30px;
+    object-fit: cover;
+}
+.iki1 img{
+    width: 100%;
+    height: 400px;
+} .iki2{
+    width: 400px;
+    height: 300px;
+    margin-top: 70px;
+}
+.iki2 h1{
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 30px;
+} .iki p{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.iki2 input{
+    font-size: 20px;
+    background-color: rgba(12, 76, 216, 0.663);
+    color: aliceblue;
+    border-radius: 10px;
+    height: 50px;
+    }
+    .iki2 input:hover{
+         background-color: blue;
+      transition: 0.8s;
+    }
+    .uc{
+        width: 100%;
+        background-color: rgba(2, 2, 53, 0.31);
+        color: aliceblue;
+        text-align: center;
+        height: 100px;
+        border-radius: 10px;
+        margin-top: 70px;
+        padding-top: 40px;
+        font-size: 20px;
+
+    }
+    .card{
+        display: flex;
+         justify-content: space-between;
+         margin-top: 30px;
+    }
+    .card1{
+        width: 30%;
+        height: 300px;
+      
+        
+        border: 1px solid black;
+        border-radius: 10px;
+
+    }
+    .info{
+        padding: 20px;
+    }
+    .card1 h1{
+        margin-bottom: 30px;
+    
+    }
+    .card1 p{
+        font-size: 20px;
+        
+    }
+    .input{
+        width: 100%;
+        border-top: 1px solid black;
+        background-color: rgba(197, 207, 215, 0.367);
+        height: 80px;
+        border-radius: 10px;
+        padding-top: 10px;
+       
+    }
+    
+    .input input{
+        font-size: 20px;
+        background-color: rgb(15, 15, 233);
+        color: aliceblue;
+        height: 50px;
+        border-radius: 10px;
+        width: 140px;
+        
+        
+    }
+    .footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 200px;
+        width: 100%;
+        background-color: rgb(6, 3, 40);
+        color: aliceblue;
+    }
+</style>
+</head>
+<body>
+    <div class="conteiner">
+        <div class="nav">
+            <h1>Start Bootstrap</h1>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Services</a></li>
+            </ul>
+        </div>
+        <div class="bir">
+            <div class="iki">
+                <div class="iki1"> <img src="indir (1).jpeg" alt=""></div>
+                <div class="iki2">
+                    <h1>Business Name or Tagline</h1>
+                    <p>This is a template that is great for small businesses. It doesn't have too much fancy flare to it, but it makes a great use of the standard Bootstrap core components. Feel free to use this template for any project you want!</p>
+                    <input type="button" value="Call to Action">
+                </div>
+            </div>
+            <div class="uc">
+                This call to action card is a great place to showcase some important information or display a clever tagline!
+            </div>
+            <div class="card">
+                <div class="card1">
+                  <div class="info">
+                    <h1>Card One</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem magni quas ex numquam, maxime minus quam molestias corporis quod, ea minima accusamus.</p>
+                  </div>
+                   <div class="input">
+                    <input type="button" value="More info">
+                   </div>
+                </div>
+                <div class="card1">
+                    <div class="info">
+                      <h1>Card Two</h1>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem magni quas ex numquam, maxime minus quam molestias corporis quod, ea minima accusamus.</p>
+                    </div>
+                     <div class="input">
+                      <input type="button" value="More info">
+                     </div>
+                  </div>
+                  <div class="card1">
+                    <div class="info">
+                      <h1>Card Three</h1>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem magni quas ex numquam, maxime minus quam molestias corporis quod, ea minima accusamus.</p>
+                    </div>
+                     <div class="input">
+                      <input type="button" value="More info">
+                     </div>
+                  </div>
+                
+            </div>
+        </div>
+        <div class="footer">
+            Copyright © Your Website 2023
+        </div>
+    </div>
+</body>
+</html>
